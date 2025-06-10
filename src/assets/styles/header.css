@@ -1,0 +1,30 @@
+header {
+    color: #484946;;
+    padding: 30px 10%;
+}
+
+header .header-container {
+    padding: 24px;
+    background-color: #F1F1F199;
+}
+
+header .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title h1 {
+    margin: 0;
+}
+
+header .title img {
+    cursor: pointer;
+    max-height: 40px;
+}
+
+header .deadline {
+    padding-top: 40px;
+    padding-bottom: 22px;
+    margin: 0;
+}
