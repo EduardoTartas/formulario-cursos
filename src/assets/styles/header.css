@@ -1,11 +1,12 @@
 header {
-    color: #484946;;
+    color: #484946;
     padding: 30px 10%;
 }
 
 header .header-container {
     padding: 24px;
     background-color: #F1F1F199;
+    border-radius: 8px;
 }
 
 header .title {
