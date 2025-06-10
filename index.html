@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
+    <title>Cursos FIC</title>
+  </head>
+  <body>
+  <header>
+   <div class="header-container">
+    <div class="title">
+      <h1>Inscrição nos cursos FIC</h1>
+      <img src="./src/assets/images/moon-star 1.svg" alt="Ícone de estrela">
+    </div>
+    <p class="deadline">Prazo para responder: <strong>05/05/2025</strong></p>
+   </div>
+  </header>
+   <main>
+    <form action="">
+      <div class="form-group">
+        <label for="name"><span class="star">* </span>Nome:</label><br>
+        <input type="text" id="name" name="name" placeholder="Ex.: Eduardo dos Santos Tartas" required /> 
+      </div>
+
+      <div class="form-group">
+        <label for="email"><span class="star">* </span>E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="Ex.: eduardo@gmail.com" required /> 
+      </div>
+
+      <div class="form-group">
+        <label for="sex"><span class="star">* </span>Sexo:</label><br>
+        <div class="radio-sex">
+          <label for="sex">
+          <input type="radio" name="sex" id="sexM" value="male" required>
+          <span>Masculino</span>
+        </label><br>
+        <label for="sex">
+          <input type="radio" name="sex" id="sexF" value="female" required>
+          <span>Feminino</span>
+        </label>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="course"><span class="star">* </span>Curso</label><br>
+        <select id="course" name="course" required>
+          <option value="html">HTML e CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python com Django</option>
+          <option value="php">PHP com Laravel</option>
+          <option value="ruby">Ruby on Rails</option>
+          <option value="csharp">C# com .NET</option> 
+          <option value="java">Java com Spring Boot</option>
+          <option value="typescript">TypeScript com React</option>
+          <option value="sql">SQL com MySQL</option>
+          <option value="noSql">NoSQL com MongoDB</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="text">Descreva o atendimento especial (opcional):</label><br>
+        <input type="text" id="text" name="text" placeholder="Ex.: Necessito de atendimento especial para deficiência visual." />
+      </div>
+
+      <div class="form-group">
+        <label for="terms">
+          <input type="checkbox" id="terms" name="terms" required>
+          <span><span class="star">* </span>Estou de acordo com os termos de serviço</span>
+        </label>
+      </div>
+
+      <div class="form-info">
+        <span>Os campos marcados com<span class="star"> * </span>são obrigatórios.</span>
+      </div>
+
+      <div class="form-submit">
+        <button type="submit">Realizar inscrição</span>
+      </div>
+
+    </form>
+   </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
