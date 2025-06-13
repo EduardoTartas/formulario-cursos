@@ -1,0 +1,21 @@
+.dark-mode {
+    color: #FCFDFC;
+}
+
+body.dark-mode {
+    background-color: #1E1E1E;
+}
+
+header .header-container.dark-mode {
+    background-color: #373636;
+}
+
+main .form-group.dark-mode {
+    background-color: #373636;
+}
+
+main input[type="text"].dark-mode,
+main input[type="email"].dark-mode,
+main select.dark-mode {
+    background-color: #1E1E1E;
+}
