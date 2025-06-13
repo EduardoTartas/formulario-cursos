@@ -87,17 +87,16 @@ submitButton.addEventListener('click', async (event) => {
     try {
         await fetch('http://localhost:3000/users', {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(parsedData.data)
-        });
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(parsedData.data)});
+
         console.log('Formulário enviado com sucesso:', parsedData);
         alert('Formulário enviado com sucesso!');
         limparCampos();
     } 
     catch (error) {
         console.error('POST error:', error);
+        alert('Erro ao enviar o formulário. Por favor, tente novamente mais tarde.');
     }
 });
 
