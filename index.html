@@ -12,7 +12,7 @@
    <div class="header-container">
     <div class="title">
       <h1>Inscrição nos cursos FIC</h1>
-      <img src="./src/assets/images/moon-star 1.svg" alt="Ícone de estrela">
+      <img id="dark-mode" src="./src/assets/images/moon-star 1.svg" alt="Ícone de estrela">
     </div>
     <p class="deadline">Prazo para responder: <strong>05/05/2025</strong></p>
    </div>
@@ -33,11 +33,11 @@
         <label for="sex"><span class="star">* </span>Sexo:</label><br>
         <div class="radio-sex">
           <label for="sex">
-          <input type="radio" name="sex" id="sexM" value="male" required>
+          <input type="radio" name="sex" id="sex-male" value="male" required>
           <span>Masculino</span>
         </label><br>
         <label for="sex">
-          <input type="radio" name="sex" id="sexF" value="female" required>
+          <input type="radio" name="sex" id="sex-female" value="female" required>
           <span>Feminino</span>
         </label>
         </div>
@@ -46,6 +46,7 @@
       <div class="form-group">
         <label for="course"><span class="star">* </span>Curso</label><br>
         <select id="course" name="course" required>
+          <option value="">Selecione um curso</option>
           <option value="html">HTML e CSS</option>
           <option value="javascript">JavaScript</option>
           <option value="python">Python com Django</option>
@@ -61,7 +62,7 @@
 
       <div class="form-group especial">
         <label for="text">Descreva o atendimento especial (opcional):</label><br>
-        <input type="text" id="text" name="text"/>
+        <input type="text" id="text-area" name="text"/>
       </div>
 
       <div class="form-group">
@@ -76,7 +77,7 @@
       </div>
 
       <div class="form-submit">
-        <button type="submit">Realizar inscrição</span>
+        <button id="submit" type="submit">Realizar inscrição</span>
       </div>
 
     </form>
