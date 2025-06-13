@@ -1,4 +1,3 @@
-import { parse } from 'zod/v4-mini';
 import './assets/styles/index.css'
 import { FormSchema } from './utils/zod/FormSchema';
 
