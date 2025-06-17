@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #F1F1F199;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #286BB9;
+    color: #FFFFFF;
+}
+
+th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+}
+
+tbody tr {
+    border-bottom: 1px solid rgba(40, 107, 185, 0.2);
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+tbody tr:hover {
+    background-color: rgba(40, 107, 185, 0.05);
+}
+
+td {
+    padding: 14px 16px;
+}
+
