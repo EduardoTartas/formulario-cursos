@@ -19,3 +19,9 @@ main input[type="email"].dark-mode,
 main select.dark-mode {
     background-color: #1E1E1E;
 }
+
+/*dark mode da tabela*/
+.dark-mode table {
+    background-color: #373636;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
