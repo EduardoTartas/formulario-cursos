@@ -23,3 +23,15 @@ nav ul li a {
     text-decoration: none;
     color: #FCFDFC;
 }
+
+nav ul li a:hover {
+    color: #d3d3d3;
+    transition: color 0.3s ease;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #fff;
+}
+
